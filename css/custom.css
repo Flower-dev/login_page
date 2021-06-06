@@ -24,6 +24,7 @@ body {
 h1 {
 	font-weight: bold;
 	margin: 0;
+	color: #d1ac00;
 }
 
 h2 {
@@ -51,8 +52,8 @@ a {
 
 button {
 	border-radius: 20px;
-	border: 1px solid #FF4B2B;
-	background-color: #FF4B2B;
+	border: 1px solid #004643;
+	background-color: #004643;
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -89,6 +90,7 @@ form {
 input {
 	background-color: #eee;
 	border: none;
+	border-radius: 5px;
 	padding: 12px 15px;
 	margin: 8px 0;
 	width: 100%;
@@ -98,7 +100,7 @@ input {
 	background-color: #fff;
 	border-radius: 10px;
   	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
-			0 10px 10px rgba(0,0,0,0.22);
+				0 10px 10px rgba(0,0,0,0.22);
 	position: relative;
 	overflow: hidden;
 	width: 768px;
@@ -165,9 +167,9 @@ input {
 }
 
 .overlay {
-	background: #FF416C;
-	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	background: #f6be9a;
+	background: -webkit-linear-gradient(to right, #f6be9a, #faf4d3);
+	background: -webkit-linear-gradient(to right, #f6be9a, #faf4d3);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -231,27 +233,4 @@ input {
 	width: 40px;
 }
 
-footer {
-    background-color: #222;
-    color: #fff;
-    font-size: 14px;
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 999;
-}
-
-footer p {
-    margin: 10px 0;
-}
-
-footer i {
-    color: red;
-}
-
-footer a {
-    color: #3c97bf;
-    text-decoration: none;
-}
+/**/
