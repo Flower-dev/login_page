@@ -1,0 +1,23 @@
+{
+  "name": "login_page",
+  "version": "1.0.0",
+  "description": "Mini projet pour travailler la notion de translation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass scss/main.scss css/custom.css",
+    "dev": "sass scss/main.scss css/custom.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flower-dev/login_page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flower-dev/login_page/issues"
+  },
+  "homepage": "https://github.com/Flower-dev/login_page#readme",
+  "dependencies": {}
+}
+

@@ -1,0 +1,51 @@
+:root {
+    --font-default: 'Montserrat', Arial, Helvetica, sans-serif;
+    --font-slab: var(--font-default);
+    --modal-duration: 0.8s;
+  }
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+    padding: 0;
+}
+
+body {
+	background: $background-color;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: var(--font-default);
+	height: 100vh;
+	margin: -20px 0 50px;
+
+    h1 {
+        font-weight: bold;
+        margin: 0;
+        color: $title-color;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+    
+    p {
+        font-size: 14px;
+        font-weight: 100;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        margin: 20px 0 30px;
+    }
+    
+    span {
+        font-size: 12px;
+    }
+    
+    a {
+        color: $paragraph-color;
+        font-size: 14px;
+        text-decoration: none;
+        margin: 15px 0;
+    }
+}
