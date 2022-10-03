@@ -29,4 +29,4 @@ The project is available by clicking on this link : https://flower-dev.github.io
 <br/>
 
 ![ezgif com-gif-maker-7](https://user-images.githubusercontent.com/84343829/193466312-53422d68-fbe5-46a2-859a-289a0559b1d5.gif)
-/
+
